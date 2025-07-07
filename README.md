@@ -37,7 +37,7 @@ A web application that generates quotes based on topics you choose.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/echolift.git
+   git clone https://github.com/AishaSid/Quote-Generator-App
    cd echolift
    ```
 
