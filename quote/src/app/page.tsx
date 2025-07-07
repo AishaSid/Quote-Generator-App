@@ -1,10 +1,12 @@
 import QuoteForm from "@/components/QuoteForm";
+import "./global.css";
 
 export default function Home() {
   return (
-    <main className="p-6 min-h-screen flex flex-col items-center justify-start">
-      <h1 className="text-2xl font-bold mb-6">AI Quote Generator</h1>
-      <QuoteForm />
+    <main className="min-h-screen bg-gradient-to-br from-[#efe0f9] to-[#ffffff] font-sans text-base-content">
+  <div className="container mx-auto py-2 px-2">
+    <QuoteForm />
+  </div>
     </main>
   );
 }
