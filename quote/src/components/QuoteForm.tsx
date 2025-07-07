@@ -93,18 +93,18 @@ export default function QuoteForm() {
       <button
         onClick={handleSubmit}
         disabled={loading || !topic}
-        className="
-          w-full sm:w-auto
-          flex items-center justify-center gap-2
-          px-5 py-2
-          bg-primary/90 text-primary-content
-          border-1 border-primary
-          rounded-lg
-          font-medium uppercase tracking-wide
-          shadow-md hover:shadow-lg
-          transition-all duration-200
-          disabled:opacity-50 disabled:cursor-not-allowed
-        "
+         className="
+   w-full sm:w-auto
+   flex items-center justify-center gap-2
+   px-5 py-2
+   bg-gradient-to-r from-blue-400 to-purple-500 text-white
+   border-1 border-blue-600
+   rounded-lg
+   font-medium uppercase tracking-wide
+   shadow-md hover:shadow-lg
+   transition-all duration-200
+   disabled:opacity-50 disabled:cursor-not-allowed
+ "
       >
         {loading ? (
           <svg
